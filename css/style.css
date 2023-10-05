@@ -1,0 +1,184 @@
+* {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box;
+  color: var(--color-main);
+}
+:root {
+  --color-main: #3b4252;
+  --color-text: #777B87;
+  --color-button: #45a6ff;
+  --color-button-text: #ffffff;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a {
+  font-size: 23px;
+  line-height: 60px;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  min-width: 100%;
+}
+
+.container {
+  max-width: 1450px;
+  padding: 0 0px;
+  margin: 0 auto;
+  border: 1px #cd6326 solid;
+}
+
+.main-bgr-theme {
+  background-color: #cccccc;
+}
+
+.header {
+  display: flex;
+  max-width: 100%;
+  margin: 50px 0 0 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9e31313b;
+}
+.header__logo {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.header__menu {
+}
+.header__menu p {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header__menu p img {
+  vertical-align: middle;
+}
+.header__content {
+  display: flex;
+  margin: 200px 0 0 10px;
+}
+.header__text {
+}
+.header__text h4 {
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 100%;
+  max-width: 500px;
+  margin: 25px 0 0 0px;
+}
+.header__text p {
+  font-size: 15px;
+  margin: 10px 0 50px 0;
+  min-width: 590px;
+  color: var(--color-text);
+}
+.button {
+  background-color: var(--color-button);
+  padding: 20px 40px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-button-text);
+}
+.header__image {
+}
+.header__image_lamp{ 
+  position: relative;
+  top: -260px;
+  right: -10px;
+  
+}
+.background__oval {
+  content: "";
+  position: absolute;
+  top: 350px;
+  right: 225px;
+  width: 50px;
+  height: 150px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 10px #D3D3D3, 
+              0px 5px 5px #a1a1a1;
+
+}
+.background__oval::before{
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+}
+.header__image_switch{
+  position: absolute;
+  top: 340px;
+}
+.main__content_services {
+}
+.main__services {
+}
+.main__content_portfolio {
+}
+.portfolio__nav {
+}
+.portfolio__nav--li {
+}
+.main__content_portfolio--text {
+}
+.main__content_portfolio--image {
+}
+.main__content_arrow {
+}
+.main__content_clients {
+}
+.clients__logo {
+}
+.main__content_offers {
+}
+.offers__whom {
+}
+.offers__list {
+}
+.main__content_blog {
+}
+.blog__card {
+}
+.main__content_preview {
+}
