@@ -12,6 +12,7 @@
   <body>
     <div class="container">
       <header>
+        <img class="background__picture_header" src="/image/svg/Vector (2).svg" alt=""></img>
         <article class="header">
           <img src="/image/png/logo.png" alt class="header__logo" />
           <nav class="header__menu">
@@ -34,23 +35,27 @@
             <a class="button" href="#">Связаться с нами</a>
           </section>
           <section class="header__image">
+            <!-- реализовать замену на js -->
             <img class="header__image_lamp" src="/image/svg/FAVPNG_incandescent-light-bulb-lamp_zgidxV4Q 1.svg" alt="" />
             <label class="header__switch">
               <input type="checkbox">
               <span class="switch__slider switch__round"></span>
               <span class="switch__regiment"></span>
+              <span class="switch__ON"></span>
+              <span class="switch__OFF"></span>
             </label>
           </section>
         </article>
       </header>
 
-      <main>
+      <main class="main">
+        <img class="background__picture_main" src="/image/svg/Vector (2).svg" alt=""></img>
+        <h2>Услуги</h2>
         <article class="main__content_services">
-          <h2>Услуги</h2>
-          <ul>
+          <ul class="main__content_services-list">
             <li class="main__services">
-              <h2>Маркетинг</h2>
-              <ul>
+              <ul class="services__list">
+                <h2>Маркетинг</h2>
                 <li>SEO</li>
                 <li>Контекстная реклама</li>
                 <li>SMM</li>
@@ -60,11 +65,11 @@
                 <li>SEO</li>
                 <li>Контекстная реклама</li>
               </ul>
-              <a href="image/svg/drop_down_button.svg"></a>
+              <a href=""><img class="arrow__down" src="image/svg/drop_down_button.svg" alt=""></a>
             </li>
-            <li class="main__services">
-              <h2>Разработка</h2>
-              <ul>
+            <li class="main__services gradient_transparency">
+              <ul class="services__list opacity__background">
+                <h2>Разработка</h2>
                 <li>Front-end</li>
                 <li>Back-end</li>
                 <li>Создание web-приложений</li>
@@ -74,11 +79,12 @@
                 <li>SEO</li>
                 <li>Контекстная реклама</li>
               </ul>
-              <a href="image/svg/drop_down_button.svg"></a>
+              <a href=""><img class="arrow__down" src="image/svg/drop_down_button.svg" alt=""></a>
             </li>
             <li class="main__services">
-              <h2>Дизайн</h2>
-              <ul>
+         
+              <ul class="services__list">
+                <h2>Дизайн</h2>
                 <li>Дизайн лендингов</li>
                 <li>Дизайн интернет-магазинов</li>
                 <li>Брендинг</li>
