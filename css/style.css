@@ -7,12 +7,14 @@
   box-sizing: content-box;
   color: var(--color-main);
 }
+
 :root {
   --color-main: #3b4252;
-  --color-text: #777B87;
+  --color-text: #777b87;
   --color-button: #45a6ff;
   --color-button-text: #ffffff;
 }
+
 ul,
 li {
   margin: 0;
@@ -76,12 +78,15 @@ body {
   align-items: center;
   background-color: #9e31313b;
 }
+
 .header__logo {
   display: inline-block;
   margin: 0 0 0 10px;
 }
+
 .header__menu {
 }
+
 .header__menu p {
   text-transform: none;
   font-weight: bold;
@@ -91,12 +96,15 @@ body {
 .header__menu p img {
   vertical-align: middle;
 }
+
 .header__content {
   display: flex;
   margin: 200px 0 0 10px;
 }
+
 .header__text {
 }
+
 .header__text h4 {
   font-weight: 800;
   text-transform: uppercase;
@@ -104,12 +112,14 @@ body {
   max-width: 500px;
   margin: 25px 0 0 0px;
 }
+
 .header__text p {
   font-size: 15px;
   margin: 10px 0 50px 0;
   min-width: 590px;
   color: var(--color-text);
 }
+
 .button {
   background-color: var(--color-button);
   padding: 20px 40px;
@@ -118,14 +128,16 @@ body {
   font-weight: 600;
   color: var(--color-button-text);
 }
+
 .header__image {
 }
-.header__image_lamp{ 
+
+.header__image_lamp {
   position: relative;
   top: -260px;
   right: -10px;
-  
 }
+
 .background__oval {
   content: "";
   position: absolute;
@@ -134,11 +146,10 @@ body {
   width: 50px;
   height: 150px;
   border-radius: 30px;
-  box-shadow: inset 5px 5px 10px #D3D3D3, 
-              0px 5px 5px #a1a1a1;
-
+  box-shadow: inset 5px 5px 10px #d3d3d3, 0px 5px 5px #a1a1a1;
 }
-.background__oval::before{
+
+.background__oval::before {
   content: "";
   position: absolute;
   width: 48px;
@@ -146,39 +157,56 @@ body {
   border-radius: 30px;
   border: 2px solid #ffffff;
 }
-.header__image_switch{
+
+.header__image_switch {
   position: absolute;
   top: 340px;
 }
+
 .main__content_services {
 }
+
 .main__services {
 }
+
 .main__content_portfolio {
 }
+
 .portfolio__nav {
 }
+
 .portfolio__nav--li {
 }
+
 .main__content_portfolio--text {
 }
+
 .main__content_portfolio--image {
 }
+
 .main__content_arrow {
 }
+
 .main__content_clients {
 }
+
 .clients__logo {
 }
+
 .main__content_offers {
 }
+
 .offers__whom {
 }
+
 .offers__list {
 }
+
 .main__content_blog {
 }
+
 .blog__card {
 }
+
 .main__content_preview {
 }
